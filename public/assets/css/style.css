@@ -193,3 +193,24 @@ input[type='submit'] {
     margin-bottom: 33px;
 }
 
+@media screen and (max-width: 768px) { 
+    .fly {      
+        top: 62%;       
+        width: 94%;
+    }
+    .fly .title {       
+        padding: 8px 3px !important;     
+    }
+    #application {
+        padding: 40px 16px;
+        width: 95%;       
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    input[type="text"], input[type="date"], select {       
+        padding: 10px 8px;
+    }  
+    input[type="submit"] {
+        width: 48%;
+    }
+}
